@@ -24,8 +24,8 @@ export default {
     const getInput = this.input.value;
     console.log({getInput});
     this.alertText();
-  },
-  methods: {
+  }, 
+  methods: { 
     warnDisabled() {
       this.disabled = true;
       this.input.value = "Loading";
